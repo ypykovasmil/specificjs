@@ -1,3 +1,4 @@
 const stringReverse = str => str.split("").reverse().join("");
-console.log("0 || 1 = "+(0 || 1));
-const isTabInView = () => !document.hidden;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log( "A" - "B" + "2");
+const randomString = () => Math.random().toString(36).slice(2);
