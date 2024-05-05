@@ -1,2 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-var arr2 = arr1.reverse();
+const isEmptyArray = arr => !arr.length;
+const stringReverse = str => str.split("").reverse().join("");
