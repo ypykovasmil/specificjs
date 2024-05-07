@@ -1,2 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+function myAPITS(someString: string, someNum: number) { ... };
