@@ -1,3 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-function myAPITS(someString: string, someNum: number) { ... };
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
