@@ -1,3 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-var arr1 = "john".split('');
-const channelName = getChannelName(channel);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
