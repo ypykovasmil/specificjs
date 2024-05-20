@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-console.log( "A" - "B" + "2");
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const merge = Object.assign({}, obj1, obj2);
+console.log(typeof typeof 1);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
