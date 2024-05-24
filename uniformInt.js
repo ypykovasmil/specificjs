@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const arrayContains = (arr, element) => arr.includes(element);
+const randomBoolean = () => Math.random() >= 0.5;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
