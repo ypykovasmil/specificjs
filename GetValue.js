@@ -1,1 +1,2 @@
-console.log(+"1" +  "1" + "2");
+const randomString = () => Math.random().toString(36).slice(2);
+const uniqueArray = arr => [...new Set(arr)];
