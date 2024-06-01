@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(+"1" +  "1" + "2");
