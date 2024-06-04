@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const flattenedArray = arr => [].concat(...arr);
+const channel = getChannel(computedAppVersion);
