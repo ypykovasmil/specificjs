@@ -1,1 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const result = await makeHttpRequest(url);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
