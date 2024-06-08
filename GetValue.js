@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const uniqueArray = arr => [...new Set(arr)];
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const merge = (a, b) => a.concat(b);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
