@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-var DELIM_SIZE = 4;
-const isEmptyArray = arr => !arr.length;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
