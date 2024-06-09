@@ -1,3 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-[foo, bar] = [bar, foo];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
