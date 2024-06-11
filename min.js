@@ -1,2 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
