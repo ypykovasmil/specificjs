@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log("1 && 2 = "+(1 && 2));
+const channel = getChannel(computedAppVersion);
+const getRandomBoolean = () => Math.random() >= 0.5;
