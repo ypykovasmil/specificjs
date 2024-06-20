@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const allResults = await Promise.all(items.map(async (item) => {}));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const goToTop = () => window.scrollTo(0, 0);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
