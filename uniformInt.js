@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const flattenedArray = arr => [].concat(...arr);
