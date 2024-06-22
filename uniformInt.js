@@ -1,3 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const flattenedArray = arr => [].concat(...arr);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(+"1" +  "1" + "2");
