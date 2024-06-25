@@ -1,2 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isEven = (num) => num % 2 === 0;
+const randomBoolean = () => Math.random() >= 0.5;
