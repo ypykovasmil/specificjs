@@ -1,1 +1,1 @@
-const updated = numbers.filter(element => element > 6);
+const lastElement = arr => arr[arr.length - 1];
