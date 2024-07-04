@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-const randomBoolean = () => Math.random() >= 0.5;
+const isTabInView = () => !document.hidden;
+const reversedString = str => str.split('').reverse().join('');
