@@ -1,2 +1,1 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const arrayContains = (arr, element) => arr.includes(element);
+const isEven = (num) => num % 2 === 0;
