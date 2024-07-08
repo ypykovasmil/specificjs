@@ -1,1 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
+const arrayContains = (arr, element) => arr.includes(element);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const currentDate = () => new Date().toLocaleDateString('en-US');
