@@ -1,3 +1,1 @@
-const channelName = getChannelName(channel);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-var arr1 = "john".split('');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
