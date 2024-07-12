@@ -1,1 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+function myAPITS(someString: string, someNum: number) { ... };
