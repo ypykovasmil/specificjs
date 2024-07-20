@@ -1,2 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(+"1" +  "1" + "2");
