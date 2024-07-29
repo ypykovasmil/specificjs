@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-var pattern = {};
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
