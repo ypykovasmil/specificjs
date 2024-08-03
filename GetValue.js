@@ -1,3 +1,1 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-var arr2 = arr1.reverse();
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
